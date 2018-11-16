@@ -77,6 +77,7 @@
 
 	body {
 		background: #fff;
+
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -98,7 +99,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "akkurat", Helvetica, sans-serif;
+		font-family: "Akkurat", Helvetica, san sarif;
 		font-size: 13pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -448,6 +449,19 @@
 
 		}
 
+#top {
+	display: inline-block;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
 /* Contact */
 
 
@@ -735,6 +749,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 0px 10px #111;
     }
 
 	@-moz-keyframes gallery {
@@ -1078,6 +1095,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			font-size: 15pt;
 		}
 
 			ul.icons li {
